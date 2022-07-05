@@ -59,6 +59,7 @@ Supposedly, end-to-end encryption (E2EE) is a defence against MitM attacks ...
    docs/impacts/*
 
 .. toctree::
-   :caption: All threat models
+   :caption: Links
 
-   Overview <https://tymyrddin.github.io/threat-models/>
+   Overview threat models <https://tymyrddin.github.io/threat-models/>
+   Crypto attack trees <https://tymyrddin.github.io/attack-trees/docs/crypto/README.html>
