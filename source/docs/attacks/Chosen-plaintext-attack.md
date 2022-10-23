@@ -1,6 +1,6 @@
 # Chosen plaintext attack
 
-In a [chosen-plaintext](attack-trees:docs/crypto/Chosen-plaintext-attack) attack an adversary can (possibly adaptively) ask for the ciphertexts of arbitrary plaintext messages. This is formalized by allowing the adversary to interact with an encryption oracle, viewed as a black box. The goal is to reveal all or part of the secret encryption key.
+In a [chosen-plaintext](red-crypt:docs/attacks/plaintext) attack an adversary can (possibly adaptively) ask for the ciphertexts of arbitrary plaintext messages. This is formalized by allowing the adversary to interact with an encryption oracle, viewed as a black box. The goal is to reveal all or part of the secret encryption key.
 
 It may seem infeasible in practice that an attacker could obtain ciphertexts for given plaintexts, but modern cryptography is implemented in software or hardware and is used in a diverse range of applications and very feasible. Chosen-plaintext attacks become extremely important in the context of public key cryptography, where the encryption key is public and so attackers can encrypt any plaintext they choose.
 
