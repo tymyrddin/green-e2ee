@@ -1,8 +1,3 @@
-.. E2EE Threat model documentation master file, created by
-   sphinx-quickstart on Fri Jun 17 22:40:52 2022.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 E2EE threat model
 =============================================
 
