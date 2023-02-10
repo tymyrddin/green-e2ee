@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'E2EE threat model'
+project = 'E2EE messaging threat model'
 copyright = '2022, Ty Myrddin'
 author = 'Ty Myrddin'
 
@@ -58,6 +58,7 @@ html_theme_options = {
     'display_version': True,
     'prev_next_buttons_location': 'bottom',
     'style_external_links': True,
+    'logo_only': True,
     # Toc options
     'collapse_navigation': True,
     'sticky_navigation': False,
@@ -66,7 +67,7 @@ html_theme_options = {
     'titles_only': True
 }
 
-html_title = "E2EE Threat model"
+html_title = "E2EE messaging threat model"
 html_logo = "img/logo.png"
 html_favicon = "img/favicon.ico"
 
